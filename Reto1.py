@@ -9,9 +9,9 @@ potencia_anual = potencia_diaria*365
 num_paneles = consumo_anual/potencia_anual
 area_total= num_paneles*area_panel
 #mostrar resultados
-print("Potencia diaria generada por panel:", round(potencia_diaria, 2), "kWh")
-print("Potencia anual generada por panel:", round(potencia_anual, 2), "kWh")
-print("numero de paneles necesarios:", num_paneles)
-print("Área total requerida para los paneles:", round(area_total, 2), "m2")
+print(f"Potencia diaria generada por un panel: {potencia_diaria} kWh")
+print(f"Potencia anual generada por un panel: {potencia_anual} kWh")
+print(f"Número de paneles necesarios: {num_paneles}")
+print(f"Área total requerida para los paneles: {area_total} m²")
 
 
