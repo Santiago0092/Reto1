@@ -8,5 +8,10 @@ potencia_diaria= area_panel*radiacion* eficiencia
 potencia_anual = potencia_diaria*365
 num_paneles = consumo_anual/potencia_anual
 area_total= num_paneles*area_panel
+#mostrar resultados
+print ("potencia_diaria, 2), "kWh")
+print ("Potencia anual generada por panel:", round(potencia_anual,2), "kWh")
+print (numero de paneles necesarios:", num_paneles)
+print (Área total requerida para los paneles:" round(area_total,2), "m2")
 
 
